@@ -35,9 +35,9 @@ Future versions will expand the dataset with additional bugs, categories, and ex
 
 ## Citation
 
-If you use **PyResBugs** in your research or projects, please cite the dataset using the following reference:
+If you use **PyResBugs** in your research or projects, please cite the ICSE-FORGE 2025 paper:
 
-
+a citation will be available as soon as possible
 ---
 
 ## License

@@ -49,6 +49,7 @@ If you use **PyResBugs** in your research or projects, please cite the following
   keywords={Foundation models;Computer bugs;Natural languages;Software systems;Python;Testing;Software engineering;Residual Bugs;Dataset;Python;Fault Injection;Natural Language},
   doi={10.1109/Forge66646.2025.00024}
 }
+```
 
 ---
 

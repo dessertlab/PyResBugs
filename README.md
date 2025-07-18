@@ -35,9 +35,21 @@ Future versions will expand the dataset with additional bugs, categories, and ex
 
 ## Citation
 
-If you use **PyResBugs** in your research or projects, please cite the ICSE-FORGE 2025 paper:
+If you use **PyResBugs** in your research or projects, please cite the following paper:
 
-a citation will be available as soon as possible
+```bibtex
+@INPROCEEDINGS{11052783,
+  author={Cotroneo, Domenico and De Rosa, Giuseppe and Liguori, Pietro},
+  booktitle={2025 IEEE/ACM Second International Conference on AI Foundation Models and Software Engineering (Forge)}, 
+  title={PyResBugs: A Dataset of Residual Python Bugs for Natural Language-Driven Fault Injection}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={146-150},
+  keywords={Foundation models;Computer bugs;Natural languages;Software systems;Python;Testing;Software engineering;Residual Bugs;Dataset;Python;Fault Injection;Natural Language},
+  doi={10.1109/Forge66646.2025.00024}
+}
+
 ---
 
 ## License
@@ -48,5 +60,5 @@ This dataset is released under the **MIT License**, allowing free use, modificat
 
 ## Contact
 
-For questions or further information, please feel free to contact us or open an issue in this repository.
+For questions or further information, please feel free to contact giuseppe.derosa20@unina.it
 

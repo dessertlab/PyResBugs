@@ -1,0 +1,22 @@
+{
+  "Bug_Description": "",
+  "Bug_Type": null,
+  "CVE-ID": null,
+  "Commit_URL": "",
+  "Commit_sha": "",
+  "Dataset_input": "GitHub",
+  "Diff_patch": "",
+  "Fault Free Code": "",
+  "Faulty Code": "",
+  "Fixed_Method": "",
+  "Impact": null,
+  "Implementation-Level Description": "",
+  "Contextual-Level Description": "",
+  "High-Level Description": "",
+  "Project": "",
+  "Python_Version": "",
+  "Test_File_Path": null,
+  "Url": "",
+  "Fault_Acronym": ""
+}
+

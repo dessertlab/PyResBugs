@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/dessertlab/PyResBugs/schema/bug.schema.json",
+  "title": "PyResBugs bug record",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "Bug_Description": { "type": "string", "minLength": 1 },
+    "Bug_Type": { "type": ["string", "null"] },
+    "CVE-ID": { "type": ["string", "null"] },
+    "Commit_URL": { "type": "string", "format": "uri", "pattern": "^https?://" },
+    "Commit_sha": { "type": "string", "pattern": "^[0-9a-fA-F]{7,40}$" },
+    "Dataset_input": { "type": "string", "minLength": 1 },
+    "Diff_patch": { "type": "string", "minLength": 1 },
+    "Fault Free Code": { "type": "string", "minLength": 1 },
+    "Faulty Code": { "type": "string", "minLength": 1 },
+    "Fixed_Method": { "type": "string", "minLength": 1 },
+    "Impact": { "type": ["string", "null"] },
+    "Implementation-Level Description": { "type": "string", "minLength": 1 },
+    "Contextual-Level Description": { "type": "string", "minLength": 1 },
+    "High-Level Description": { "type": "string", "minLength": 1 },
+    "Project": { "type": "string", "minLength": 1 },
+    "Python_Version": { "type": "string", "minLength": 1 },
+    "Test_File_Path": { "type": ["string", "null"] },
+    "Url": { "type": "string", "format": "uri", "pattern": "^https?://" },
+    "Fault_Acronym": { "type": "string", "minLength": 1 }
+  },
+  "required": [
+    "Bug_Description",
+    "Commit_URL",
+    "Commit_sha",
+    "Dataset_input",
+    "Diff_patch",
+    "Fault Free Code",
+    "Faulty Code",
+    "Fixed_Method",
+    "Implementation-Level Description",
+    "Contextual-Level Description",
+    "High-Level Description",
+    "Project",
+    "Python_Version",
+    "Url",
+    "Fault_Acronym"
+  ]
+}
+
